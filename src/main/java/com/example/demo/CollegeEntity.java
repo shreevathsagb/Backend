@@ -1,7 +1,9 @@
 package com.example.demo;
 
+//import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +14,7 @@ public class CollegeEntity {
 	@Id
 	private String id;
 	private String password;
+
 	public String getId() {
 		return id;
 	}
